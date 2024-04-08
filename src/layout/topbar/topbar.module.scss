@@ -1,0 +1,28 @@
+.topBarWrapper {
+  background-color: #4a6ec9;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 40px;
+  p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    // font-size: 13px;
+    a {
+      color: white;
+      text-decoration: none;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .topBarWrapper {
+    display: none;
+  }
+}

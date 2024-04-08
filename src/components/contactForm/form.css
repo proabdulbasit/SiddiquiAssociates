@@ -1,0 +1,30 @@
+.ReactModal__Content {
+    position: absolute;
+    inset: 40px;
+    border: 1px solid rgb(204, 204, 204);
+    background: white;
+    overflow: auto;
+    border-radius: 4px;
+    outline: none;
+    padding: 20px;
+    width: 300px;
+    height: 350px;
+    margin: auto;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 4px;
+    z-index: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ReactModal__Content  button{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    /* background-color: #9c5451; */
+    color:#4a6ec9  ;
+    border-radius: 5px;
+    background-color: transparent;
+    border: none;
+}

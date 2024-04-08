@@ -1,0 +1,61 @@
+Link :https://siddiquiassociates.com.au/
+Project Name: Siddiqui Associates
+   There are 12 pages in this Project
+   1) Dashboard means Home =>  Page url (https://siddiquiassociates.com.au/)
+   2) About Us =>  Page url (https://siddiquiassociates.com.au/about-us)
+   3) Bookkeeping =>  Page url (https://siddiquiassociates.com.au/bookkeeping)
+   4) BAS =>  Page url (https://siddiquiassociates.com.au/business-activity-statement)
+   5) Business Planning Advisory =>  Page url (https://siddiquiassociates.com.au/business-planning-advisory)
+   6) Income Tax And tax return =>  Page url (https://siddiquiassociates.com.au/income-tax-and-tax-returns-service)
+   7) Supper Annuation =>  Page url (https://siddiquiassociates.com.au/superannuation)
+   8) Contact Us =>  Page url (https://siddiquiassociates.com.au/contact-us)
+   9) Services =>  Page url (https://siddiquiassociates.com.au/services)
+   10) Terms and condition =>  Page url (https://siddiquiassociates.com.au/Terms-and-condition)
+   11) privacy policy =>  Page url (https://siddiquiassociates.com.au/privacy-policy)
+   12) 404 page =>  Page url (https://siddiquiassociates.com.au/*)
+
+These are inside src folder in pages folder
+
+   Routing:
+      The Project Routing define in Src folder in App.js .
+      
+   Images:
+     The Images used in this project is in src/assets .
+    
+   Layouts:
+   In Layouts we have the following fles
+   1) footer
+   2) TopBar
+   3) Navbar
+
+   Components:
+   Our All Pages 80% Depend on Components
+   In Components we have 
+   about card
+   banner footer
+   button
+   card
+   contact card
+   contactform
+   content heading Components
+   content heading Components2
+   faq section 
+   map
+   page loader 
+   review
+   service banner
+   service counter
+   service detail
+   service detail2
+   services Layouts
+   services Layouts bullets
+   services Layouts content
+   service list
+   slider
+
+
+   In every page we use component 
+
+   CSS File:
+     The css file is very simple define of every Components or page 
+     We create folders for all Components and pages and inside that folder there are css of every Components on name eg.module.scss

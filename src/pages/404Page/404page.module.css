@@ -1,0 +1,32 @@
+.outer_404{
+    /* height: 80vh; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.fonts {
+    font-size: 350px;
+}
+.fonts span{
+    color:#4a6ec9 ;
+}
+.home_link{
+    background-color: transparent;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid;
+    margin: 20px 0;
+    transition: all 0.3s;
+}
+.home_link:hover{
+    background-color: #4a6ec9;
+    color: white;
+    border: 1px solid #4a6ec9;
+}
+@media(max-width:750px){
+    .fonts {
+        font-size: 200px;
+    }
+}

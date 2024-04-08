@@ -1,0 +1,60 @@
+// @import "../../assets/Styles/_responsive.scss";
+
+.contactBanner {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 35px;
+  justify-content: center;
+  align-items: center;
+  // color: white;
+  position: relative;
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+    position: absolute;
+    opacity: 0.3;
+  }
+  .heading {
+    position: absolute;
+    padding: 15px;
+    h1 {
+      text-align: center;
+      color: #4a6ec9;
+      margin: 0;
+    }
+    p {
+      text-align: center;
+    }
+  }
+}
+
+.formContentContainer {
+  padding: 0px 35px;
+  position: relative;
+  display: flex;
+  margin-bottom: 30px;
+  // @include mobile() {
+  //   flex-direction: column;
+  //   padding: 0px 25px;
+  // }
+}
+
+.menuIcon {
+  position: absolute;
+  top: 4px;
+  left: 6px;
+  font-size: 40px;
+  color: #4a6ec9;
+  cursor: pointer;
+  z-index: 12;
+}
+
+@media (max-width: 768px) {
+  .formContentContainer {
+    flex-direction: column;
+    padding: 0px 25px;
+  }
+}

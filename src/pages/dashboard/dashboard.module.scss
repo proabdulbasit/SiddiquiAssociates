@@ -1,0 +1,53 @@
+@import "../../assets/Styles/responsive";
+
+.mainWrapper {
+  height: 500px;
+  opacity: 1;
+  padding: 0;
+  position: relative;
+  .menuIcon {
+    position: absolute;
+    top: 4px;
+    left: 6px;
+    font-size: 40px;
+    color: #4a6ec9;
+    cursor: pointer;
+    z-index: 12;
+  }
+  img {
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.3;
+    position: absolute;
+    width: 100%;
+  }
+  .content {
+    text-align: center;
+    top: 30%;
+    left: 10%;
+    position: absolute;
+    h1 {
+      font-size: 52px;
+      color: #4a6ec9;
+    }
+    p {
+      font-size: 20px;
+    }
+  }
+}
+.serviceWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.counterWrapper {
+  display: flex;
+  justify-content: space-around;
+  padding: 25px;
+  background-color: #4a6ec9;
+  @include mobile {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}

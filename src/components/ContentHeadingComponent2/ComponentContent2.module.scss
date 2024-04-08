@@ -1,0 +1,49 @@
+@import "../../assets/Styles/responsive";
+
+.bannerContainer {
+  position: relative;
+  height: 500px;
+  padding: 0px;
+  opacity: 1;
+  &::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.801);
+  }
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    opacity: 0.7;
+  }
+
+  .serviceBanner {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    .heading {
+      position: absolute;
+      z-index: 12;
+      top: 40%;
+      @include mobile() {
+        padding: 0px 30px;
+      }
+
+      h1 {
+        color: rgb(255, 255, 255);
+        margin: 0;
+      }
+
+      p {
+        margin-top: 12px;
+        color: #d4d4d4;
+      }
+    }
+  }
+}
