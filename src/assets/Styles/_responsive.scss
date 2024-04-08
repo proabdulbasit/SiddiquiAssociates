@@ -1,0 +1,25 @@
+@import "../Styles/variable";
+
+@mixin xmobile() {
+  @media (max-width: $breakpoint-xmobile) {
+    @content;
+  }
+}
+
+@mixin mobile() {
+  @media (max-width: $breakpoint-mobile) {
+    @content;
+  }
+}
+
+@mixin laptop() {
+  @media (max-width: $breakpoint-laptop) {
+    @content;
+  }
+}
+
+@mixin desktop() {
+  @media (max-width: $breakpoint-desktop) {
+    @content;
+  }
+}

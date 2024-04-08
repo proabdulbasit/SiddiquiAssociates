@@ -1,0 +1,55 @@
+.headerOuter{
+    width: 100%;
+    
+    /* top: 0;
+    position: sticky; */
+}
+.container-header{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 10px 0;
+    width: 80%;
+    margin: auto;
+    /* top: 0;
+    position: sticky; */
+   
+}
+.headerLink{
+    text-decoration: none;
+    color:#4a6ec9 ;
+    transition: all 0.3s;
+}
+.headerLink:hover{
+    text-decoration: underline;
+}
+.appointment{
+    background-color: #4a6ec9;
+    border: 1px solid #4a6ec9;
+    border-radius: 0;
+    transition: all 0.3s;
+    height: 100%;
+}
+.appointment:hover{
+    color: #4a6ec9;
+    background-color: transparent;
+   
+}
+/* .headerLogoSection{
+    width: 160px;
+    height: 60px;
+} */
+.headerLogoSection img{
+    width: 160px;
+    height: 60px;
+}
+@media (max-width:1200px) {
+    .container-header{
+        width: 90%;
+    }
+}
+@media(max-width:812px){
+    .headerOuter{
+        display: none;
+    }
+}

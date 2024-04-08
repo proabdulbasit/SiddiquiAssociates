@@ -1,0 +1,42 @@
+@import "../../assets/Styles/responsive";
+
+.swiperContainer {
+  width: 100%;
+  height: auto;
+  background-color: #4a6ec9;
+  color: white;
+}
+.swiper-button-next, .swiper-rtl .swiper-button-prev{
+  color: white !important;
+}
+.swiper-button-prev, .swiper-rtl .swiper-button-next{
+  color: white !important;
+}
+.swiper-pagination-bullet-active{
+  background-color: white !important;
+}
+.swiperSlide {
+  width: 80%;
+  // height: 100%;
+  height: auto !important;
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+.swiper-wrapper{
+  align-items: center !important;
+}
+  p {
+    padding: 20px;
+    width: 40%;
+    text-align: center;
+    @include mobile {
+      padding: 25px 0px;
+      width: 70%;
+      margin: 0px;
+    }
+  }
+}
+

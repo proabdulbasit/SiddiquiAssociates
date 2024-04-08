@@ -1,0 +1,58 @@
+@import "../../assets/Styles/responsive";
+
+.serviceDetailContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  gap: 20px;
+  @include laptop() {
+    flex-direction: column;
+    padding: 0px 20px;
+  
+  }
+  .serviceDetailImg {
+    width: 45%;
+    padding: 20px;
+    border:2px solid #4a6ec9;
+    @include laptop() {
+      width: 90%;
+    }
+    img {
+      width: 100%;
+      height: 400px;
+     
+    }
+ 
+  }
+
+  .serviceContent {
+    width: 60%;
+   
+    
+   
+    @include laptop() {
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      padding: 20px;
+    }
+
+    h1 {
+      margin: 0;
+      margin-bottom: 15px;
+
+      @include laptop() {
+        text-align: center;
+      }
+    }
+    p {
+      @include laptop() {
+        text-align: center;
+      }
+    }
+  }
+}

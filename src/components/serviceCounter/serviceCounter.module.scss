@@ -1,0 +1,30 @@
+@import "../../assets/Styles/responsive";
+
+.Pockets {
+  width: 200px;
+  height: 200px;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid transparent;
+  border-radius: 25px;
+  @include laptop {
+    width: 160px;
+  }
+  @include mobile {
+    margin: 10px 0px;
+  }
+}
+.Image {
+  width: 64px;
+  height: 65px;
+  object-fit: cover;
+}
+.Counter {
+  margin-bottom: 0;
+}
+.Text {
+  margin-top: 0;
+}
